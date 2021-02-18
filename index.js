@@ -5,6 +5,7 @@ const stripJsonComments = require('strip-json-comments');
 const readFileAsJson = (file) => JSON.parse(stripJsonComments(fs.readFileSync(file).toString()));
 const replacePathEnd = (path) => (path.endsWith('/*') ? path.slice(0, -2) : path);
 
+// This definity needs a rework to resolve the paths instead of converting them
 module.exports = function (snowpackConfig, pluginOptions) {
   let tsconfig = readFileAsJson(path.join(snowpackConfig.root, 'tsconfig.json'));
   let compilerOptions = tsconfig.compilerOptions;
