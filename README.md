@@ -1,5 +1,7 @@
 # tsconfig-paths-snowpack-plugin
 
+[![npm package](https://nodei.co/npm/tsconfig-paths-snowpack-plugin.png?downloads=true&downloadRank=true)](https://nodei.co/npm/tsconfig-paths-snowpack-plugin/)
+
 ## Description
 This is a simple plugin that will use the paths you have defined in your tsconfig.json in your snowpack configuration.
 
@@ -52,3 +54,4 @@ If you have ideas to improve the project, feel free to do so.
 - [ ] Rework the path parsing
 - [ ] Error output
 - [ ] Options for advanced path parsing
+- [ ] Tests
