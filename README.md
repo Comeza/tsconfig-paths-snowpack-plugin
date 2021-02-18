@@ -8,7 +8,7 @@ This is a simple plugin that will use the paths you defined in your tsconfig.jso
 snowpack.config.json
 ```json
 plugins: [
-  ['tsconfig-paths-snowpack-plugin'],
+  ['tsconfig-paths-snowpack-plugin', {/* See Options */}],
 ],
 ```
 ## Options

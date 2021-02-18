@@ -18,7 +18,7 @@ module.exports = function (snowpackConfig, pluginOptions) {
 
   snowpackConfig.alias = { ...mappedPaths, ...snowpackConfig.alias };
 
-  if (pluginOptions?.logAlias) console.log('snowpackConfig', snowpackConfig.alias);
+  if (pluginOptions?.logAlias) console.log('snowpackConfig.alias', snowpackConfig.alias);
 
   return {
     name: 'tsconfig-paths-snowpack-plugin',
