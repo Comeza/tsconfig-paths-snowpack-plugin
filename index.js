@@ -9,6 +9,7 @@ module.exports = function (snowpackConfig, pluginOptions) {
   let tsconfig = readFileAsJson(path.join(snowpackConfig.root, 'tsconfig.json'));
   let compilerOptions = tsconfig.compilerOptions;
   let baseUrl = compilerOptions?.baseUrl ?? '';
+  if (baseUrl.endsWith('/')) baseUrl += '/';
 
   let mappedPaths = Object.entries(compilerOptions.paths)
     .map(([key, val]) => ({
