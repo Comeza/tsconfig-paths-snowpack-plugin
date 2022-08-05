@@ -6,7 +6,10 @@
 This is a simple plugin that will use the paths you have defined in your tsconfig.json in your snowpack configuration.
 
 ### Disclaimer
-I would recommend to use another pugin, since this is the first npm package that I have published. And I can't guarantee that it will work in every usecase.
+I would recommend to use another pugin, since this is the first npm package
+that I have published. And I can't guarantee that it will work in every
+usecase. So See [Alternatives](#Alternatives) if you want to use this in a
+production environment.
 
 ## Usage
 
@@ -43,15 +46,13 @@ module.exports = {
 ## Options
 | Field      | Type    | Required | Description                                                        |
 |------------|---------|----------|--------------------------------------------------------------------|
-| `logAlias` | Boolean | No       | This will print the modified alias of your snowpack configuration. Keep in mind that you have to set `devOptions: { output: 'stream' } ` in your `snowpack.config.js` to prevent snowpack from clearing the console. |
+| `logAlias` | bool    | No       | This will print the modified alias of your snowpack configuration. Keep in mind that you have to set `devOptions: { output: 'stream' } ` in your `snowpack.config.js` to prevent snowpack from clearing the console. |
 
 
 ## Contribution
-If you have ideas to improve the project, feel free to do so.
+If you have any ideas to improve the project, feel free to do so.
 
-## Todo
-- [x] Basic proof of concept
-- [ ] Rework the path parsing
-- [ ] Error output
-- [ ] Options for advanced path parsing
-- [ ] Tests
+
+## Alternatives
+  - [aleclarson/vite-tsconfig-paths ](https://github.com/aleclarson/vite-tsconfig-paths)
+	- [@nxtensions/tsconfig-paths-snowpack-plugin](https://github.com/nxtensions/nxtensions/tree/main/packages/tsconfig-paths-snowpack-plugin)
