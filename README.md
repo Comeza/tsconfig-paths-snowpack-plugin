@@ -6,10 +6,9 @@
 This is a simple plugin that will use the paths you have defined in your tsconfig.json in your snowpack configuration.
 
 ### Disclaimer
-I would recommend to use another pugin, since this is the first npm package
+I would recommend to use another pugin (see [alternatives](#Alternatives)), since this is the first npm package
 that I have published. And I can't guarantee that it will work in every
-usecase. So See [Alternatives](#Alternatives) if you want to use this in a
-production environment.
+usecase.
 
 ## Usage
 
