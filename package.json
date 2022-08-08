@@ -1,6 +1,6 @@
 {
   "name": "tsconfig-paths-snowpack-plugin",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Import your paths from tsconfig.json to your snowpack config",
   "main": "index.js",
   "repository": "https://github.com/Comeza/tsconfig-paths-snowpack-plugins",

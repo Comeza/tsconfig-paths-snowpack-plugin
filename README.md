@@ -53,5 +53,5 @@ If you have any ideas to improve the project, feel free to do so.
 
 
 ## Alternatives
-- [aleclarson/vite-tsconfig-paths ](https://github.com/aleclarson/vite-tsconfig-paths)
 - [@nxtensions/tsconfig-paths-snowpack-plugin](https://github.com/nxtensions/nxtensions/tree/main/packages/tsconfig-paths-snowpack-plugin)
+- I also recommend [viteJs](https://vitejs.dev) and its plugin: [aleclarson/vite-tsconfig-paths](https://github.com/aleclarson/vite-tsconfig-paths)
